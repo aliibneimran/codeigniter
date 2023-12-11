@@ -70,3 +70,6 @@ $routes->get('flats/delete/(:num)', 'FlatController::delete/$1');
 $routes->get('flats/edit/(:num)', 'FlatController::edit/$1');
 $routes->post('flats/update/(:num)', 'FlatController::update/$1');
 
+//frontend
+$routes->get('allproducts', 'frontend\ProductController::index');
+$routes->post('allproducts/(:num)', 'frontend\ProductController::show/$1');
