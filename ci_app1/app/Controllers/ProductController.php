@@ -28,15 +28,6 @@ class ProductController extends BaseController
         return view("products/add",$data);
     }
     public function store(){
-        $data = [
-            'product'=> $this->request->getVar("name"),
-            'model'=> $this->request->getVar("model"),
-            'price'=> $this->request->getVar("price"),
-            'sku'=> $this->request->getVar("sku"),
-            'category'=> $this->request->getVar("cat"),
-            'photo'=> $this->request->getFile("photo")->getName(),
-        ];
-        print_r($data);
         $rules = [
             'name' => 'required|max_length[30]',
             // 'cat'  => 'required|max_length[30]',
@@ -49,10 +40,18 @@ class ProductController extends BaseController
         if(! $this->validate($rules)){
             return view('/products/add');
         }else{
-            // echo (WRITEPATH) ;
-
             $img = $this->request->getFile('photo');
-            $img->move(ROOTPATH. 'public/assets/uploads');
+            $img_name = $img->getRandomName();
+            $img->move('assets/uploads',$img_name);
+
+            $data = [
+                'product'=> $this->request->getVar("name"),
+                'model'=> $this->request->getVar("model"),
+                'price'=> $this->request->getVar("price"),
+                'sku'=> $this->request->getVar("sku"),
+                'category_id'=> $this->request->getVar("cat"),
+                'photo'=> $img_name
+            ];
     
             $this->product->insert($data); 
             $session = session(); 
