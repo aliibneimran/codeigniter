@@ -65,10 +65,13 @@
                                 <div class="col-md-12">
                                     <textarea name="description" id="" class="form-control" placeholder="Property Description"></textarea>
                                 </div>
-                                <!-- <div class="col-md-4">
+                                <div class="col-md-4">
                                     <select id="inputState" name="cat" class="form-select">
                                         <option selected>Category</option>
-                                        <option value="Apartments">Apartments</option>
+                                        <?php foreach($cats as $cat):?>
+                                          <option value="<?= $cat['id']?>"><?= $cat['category'] ?></option>
+                                        <?php endforeach;?>
+                                        <!-- <option value="Apartments">Apartments</option>
                                         <option value="Condominium">Condominium</option>
                                         <option value="Duplex">Duplex</option>
                                         <option value="Houses">Houses</option>
@@ -76,7 +79,7 @@
                                         <option value="Land">Land</option>
                                         <option value="Offices">Offices</option>
                                         <option value="Retail">Retail</option>
-                                        <option value="Villas">Villas</option>
+                                        <option value="Villas">Villas</option> -->
                                     </select>
                                 </div>
                                 <div class="col-md-4">
@@ -95,7 +98,7 @@
                                         <option value="Open House">Open House</option>
                                         <option value="Sold">Sold</option>
                                     </select>
-                                </div> -->
+                                </div>
                                 <div class="col-md-6">
                                     <input type="text" class="form-control" name="size" placeholder="Size">
                                 </div>

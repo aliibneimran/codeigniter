@@ -18,6 +18,7 @@ class ProductController extends BaseController
     }
     public function index()
     { 
+        // $this->product->select('products.id as product_id, products.*, category.category');
         $this->product->join('category','category.id= products.category_id');
         $data['items'] = $this->product->findAll();       
         $data['title'] = 'All Products';       
@@ -30,7 +31,6 @@ class ProductController extends BaseController
     public function store(){
         $rules = [
             'name' => 'required|max_length[30]',
-            // 'cat'  => 'required|max_length[30]',
             'model'  => 'required|max_length[10]',
             'sku'  => 'required|max_length[5]',
             'price'  => 'required|numeric',
@@ -44,12 +44,15 @@ class ProductController extends BaseController
             $img_name = $img->getRandomName();
             $img->move('assets/uploads',$img_name);
 
+
+
             $data = [
                 'product'=> $this->request->getVar("name"),
                 'model'=> $this->request->getVar("model"),
                 'price'=> $this->request->getVar("price"),
                 'sku'=> $this->request->getVar("sku"),
                 'category_id'=> $this->request->getVar("cat"),
+                'utility'=> implode(', ', $this->request->getVar("utility")),
                 'photo'=> $img_name
             ];
     

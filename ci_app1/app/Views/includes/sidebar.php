@@ -76,6 +76,17 @@
       </ul>
     </li>
 
+    <!-- Ckeckbox -->
+    <li class="nav-item">
+      <a class="nav-link collapsed" data-bs-target="#ckeckbox" data-bs-toggle="collapse" href="#">
+        <i class="bi bi-menu-button-wide"></i><span>Checkbox</span><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul id="checkbox" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+        <li><a href="/checkbox"><i class="bi bi-circle"></i><span>All Checkbox</span></a></li>
+        <li><a href="/checkbox/add-checkbox"><i class="bi bi-circle"></i><span>Add Checkbox</span></a></li>
+      </ul>
+    </li>
+
     <li class="nav-item">
       <a class="nav-link collapsed" href="/profile">
         <i class="bi bi-person"></i>

@@ -79,6 +79,7 @@
                     <th>Price</th>
                     <th>SKU</th>
                     <th>Model</th>
+                    <th>Utility</th>
                     <th>Action</th>
                   </tr>
                 </thead>
@@ -92,6 +93,7 @@
                       <td><?php echo $item['price'] ?></td>
                       <td><?php echo $item['sku'] ?></td>
                       <td><?php echo $item['model'] ?></td>
+                      <td><?php echo $item['utility'] ?></td>
                       <td>
                         <a href="<?php echo base_url('/products/edit/' . $item['id']) ?>" class="btn btn-success mx-3"><i class="fas fa-edit"></i></a>
                         <a href="<?php echo base_url('/products/delete/' . $item['id']) ?>" onclick="return confirm('Are you sure to delete ?')" class="btn btn-danger"><i class="fas fa-trash-alt"></i></a>

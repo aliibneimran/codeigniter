@@ -3,19 +3,26 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
+use App\Models\CategoryModel;
 use App\Models\PropertyModel;
 
 class PropertyController extends BaseController
 {
     private $property = '';
-    protected $helpers = ['form', 'url'];
+    private $category = '' ;
+
+    protected $helpers = ['form', 'url','file'];
     public function __construct()
     {
-
         $this->property = new PropertyModel();
+        $this->category = new CategoryModel();       
+
     }
     public function index()
     {
+        // $this->property->join('category','category.id= products.category_id');
+        // $data['items'] = $this->property->findAll();       
+        // $data['title'] = 'All Properties';  
         return view('properties/index');
     }
     public function add()

@@ -4,15 +4,15 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class ProductModel extends Model
+class CheckboxModel extends Model
 {
-    protected $table            = 'products';
-    protected $primaryKey       = 'product_id';
+    protected $table            = 'checkboxes';
+    protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['product','category_id','price','sku','model','photo','utility'];
+    protected $allowedFields    = [];
 
     // Dates
     protected $useTimestamps = false;
