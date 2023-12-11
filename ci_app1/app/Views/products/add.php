@@ -40,7 +40,6 @@
     <?php echo $this->include("includes/sidebar.php")?>
 
     <main id="main" class="main">
-<?php print_r($items)?>
         <div class="pagetitle">
             <h1>Add New Product</h1>
             <nav>

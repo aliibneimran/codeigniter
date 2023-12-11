@@ -86,7 +86,7 @@
                   <?php foreach ($items as $item): ?>
                     <tr>
                       <td><?php echo $item['id'] ?></td>
-                      <td><img src="<?php echo base_url('uploads/'.$item['photo'])?>" width="50px" height="50px" alt=""></td>
+                      <td><img src="<?php echo base_url('/assets/uploads/'.$item['photo'])?>" width="50px" height="50px" alt=""></td>
                       <td><?php echo $item['product'] ?></td>
                       <td><?php echo $item['category'] ?></td>
                       <td><?php echo $item['price'] ?></td>
