@@ -15,7 +15,7 @@ $routes->get('login', 'SigninController::index');
 $routes->post('login', 'SigninController::login');
 $routes->get('logout', 'SigninController::logout');
 
-
+// Profile
 $routes->get('profile', 'ProfileController::index',['filter' => 'authGuard']);
 
 //Category
@@ -26,50 +26,34 @@ $routes->get('categories/edit/(:num)', 'CategoryController::edit/$1',['filter' =
 $routes->post('categories/update/(:num)', 'CategoryController::update/$1',['filter' => 'authGuard']); //update
 $routes->get('categories/delete/(:num)', 'CategoryController::delete/$1',['filter' => 'authGuard']); //delete
 
+//Type
+$routes->get('type', 'TypeController::index',['filter' => 'authGuard']); //list
+$routes->get('type/add-type', 'TypeController::add',['filter' => 'authGuard']); //entry
+$routes->post('type/store', 'TypeController::store',['filter' => 'authGuard']); //save
+$routes->get('type/edit/(:num)', 'TypeController::edit/$1',['filter' => 'authGuard']); //edit
+$routes->post('type/update/(:num)', 'TypeController::update/$1',['filter' => 'authGuard']); //update
+$routes->get('type/delete/(:num)', 'TypeController::delete/$1',['filter' => 'authGuard']); //delete
 
 //Services
 $routes->get('services', 'ServiceController::index',['filter' => 'authGuard']);
 $routes->get('services/add-service', 'ServiceController::add',['filter' => 'authGuard']);
 $routes->post('services/store', 'ServiceController::store',['filter' => 'authGuard']);
+$routes->get('services/delete/(:num)', 'ServiceController::delete/$1',['filter' => 'authGuard']);
+$routes->get('services/edit/(:num)', 'ServiceController::edit/$1',['filter' => 'authGuard']);
+$routes->post('services/update/(:num)', 'ServiceController::update/$1',['filter' => 'authGuard']);
 
 //Property
-$routes->get('properties', 'PropertyController::index');
-$routes->get('properties/add-property', 'PropertyController::add');
-$routes->post('properties/store', 'PropertyController::store');
-$routes->get('properties/delete/(:num)', 'PropertyController::delete/$1');
-$routes->get('properties/edit/(:num)', 'PropertyController::edit/$1');
-$routes->post('properties/update/(:num)', 'PropertyController::update/$1');
+$routes->get('properties', 'PropertyController::index',['filter' => 'authGuard']);
+$routes->get('properties/add-property', 'PropertyController::add',['filter' => 'authGuard']);
+$routes->post('properties/store', 'PropertyController::store',['filter' => 'authGuard']);
+$routes->get('properties/delete/(:num)', 'PropertyController::delete/$1',['filter' => 'authGuard']);
+$routes->get('properties/edit/(:num)', 'PropertyController::edit/$1',['filter' => 'authGuard']);
+$routes->post('properties/update/(:num)', 'PropertyController::update/$1',['filter' => 'authGuard']);
 
 //Order
 $routes->get('orders', 'OrderController::index',['filter' => 'authGuard']);
 
 
-//Products
-$routes->get('products', 'ProductController::index');
-$routes->get('products/add-product', 'ProductController::add');
-$routes->post('products/store', 'ProductController::store');
-$routes->get('products/delete/(:num)', 'ProductController::delete/$1');
-$routes->get('products/edit/(:num)', 'ProductController::edit/$1');
-$routes->post('products/update/(:num)', 'ProductController::update/$1');
-
-
-//Photo
-$routes->get('photos', 'PhotoController::index');
-$routes->get('photos/add-photo', 'PhotoController::add');
-$routes->post('photos/store', 'PhotoController::store');
-$routes->get('photos/delete/(:num)', 'PhotoController::delete/$1');
-$routes->get('photos/edit/(:num)', 'PhotoController::edit/$1');
-$routes->post('photos/update/(:num)', 'PhotoController::update/$1');
-
-
-//Flat
-$routes->get('flats', 'FlatController::index');
-$routes->get('flats/add-flat', 'FlatController::add');
-$routes->post('flats/store', 'FlatController::store');
-$routes->get('flats/delete/(:num)', 'FlatController::delete/$1');
-$routes->get('flats/edit/(:num)', 'FlatController::edit/$1');
-$routes->post('flats/update/(:num)', 'FlatController::update/$1');
-
-//frontend
+// frontend
 $routes->get('allproducts', 'frontend\ProductController::index');
 $routes->post('allproducts/(:num)', 'frontend\ProductController::show/$1');

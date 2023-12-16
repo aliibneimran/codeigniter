@@ -6,13 +6,13 @@ use CodeIgniter\Model;
 
 class ServiceModel extends Model
 {
-    protected $table            = 'blog';
-    protected $primaryKey       = 'blog_id';
+    protected $table            = 'services';
+    protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['blog_title','blog_description'];
+    protected $allowedFields    = ['title','description'];
 
     // Dates
     protected $useTimestamps = false;

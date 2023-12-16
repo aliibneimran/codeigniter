@@ -23,13 +23,34 @@ class ServiceController extends BaseController
     }
     public function store(){
         $data = [
-            'blog_title'=> $this->request->getVar("title"),
-            'blog_description'=> $this->request->getVar("description"),
+            'title'=> $this->request->getVar("title"),
+            'description'=> $this->request->getVar("description"),
         ];
             $this->service->insert($data); 
             $session = session(); 
             $session->setFlashdata('msg', 'Service Successfully Added');   
             return $this->response->redirect('/services/add-service'); 
+    }
+    public function edit($id){
+        $data= $this->service->find($id);
+        // print_r($data);
+        return view('/services/edit',$data); 
+    }
+    public function update($id){
+        $data = [
+            'title'=> $this->request->getVar("title"),
+            'description'=> $this->request->getVar("description"),
+        ];
+        $this->service->update($id, $data);
+        $session = session(); 
+        $session->setFlashdata('msg', 'Service Successfully Updated');
+        $this->response->redirect('/services');
+    }
+    public function delete($id){
+        $this->service->delete($id);
+        $session = session(); 
+        $session->setFlashdata('msg', 'Service Successfully Deleted');   
+        return $this->response->redirect('/services/'); 
     }
             
 }

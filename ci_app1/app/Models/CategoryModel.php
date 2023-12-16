@@ -6,8 +6,8 @@ use CodeIgniter\Model;
 
 class CategoryModel extends Model
 {
-    protected $table            = 'category';
-    protected $primaryKey       = 'id';
+    protected $table            = 'categories';
+    protected $primaryKey       = 'c_id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;

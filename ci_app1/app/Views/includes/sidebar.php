@@ -9,25 +9,14 @@
       </a>
     </li>
 
-     <!--Product-->
-     <li class="nav-item">
-      <a class="nav-link collapsed" data-bs-target="#product" data-bs-toggle="collapse" href="#">
-        <i class="bi bi-menu-button-wide"></i><span>Products</span><i class="bi bi-chevron-down ms-auto"></i>
-      </a>
-      <ul id="product" class="nav-content collapse" data-bs-parent="#sidebar-nav">
-        <li><a href="/products"><i class="bi bi-circle"></i><span>All Products</span></a></li>
-        <li><a href="/products/add-product"><i class="bi bi-circle"></i><span>Add Product</span></a></li>
-      </ul>
-    </li>
-
     <!--Service-->
     <li class="nav-item">
       <a class="nav-link collapsed" data-bs-target="#service" data-bs-toggle="collapse" href="#">
         <i class="bi bi-menu-button-wide"></i><span>Service</span><i class="bi bi-chevron-down ms-auto"></i>
       </a>
       <ul id="service" class="nav-content collapse" data-bs-parent="#sidebar-nav">
-        <li><a href="/services"><i class="bi bi-circle"></i><span>All Services</span></a></li>
-        <li><a href="/services/add-service"><i class="bi bi-circle"></i><span>Add Service</span></a></li>
+        <li><a href="<?= base_url('/services')?>"><i class="bi bi-circle"></i><span>All Services</span></a></li>
+        <li><a href="<?= base_url('/services/add-service')?>"><i class="bi bi-circle"></i><span>Add Service</span></a></li>
       </ul>
     </li>
 
@@ -37,8 +26,8 @@
         <i class="bi bi-menu-button-wide"></i><span>Property</span><i class="bi bi-chevron-down ms-auto"></i>
       </a>
       <ul id="property" class="nav-content collapse" data-bs-parent="#sidebar-nav">
-        <li><a href="/properties"><i class="bi bi-circle"></i><span>All Property</span></a></li>
-        <li><a href="/properties/add-property"><i class="bi bi-circle"></i><span>Add Property</span></a></li>
+        <li><a href="<?= base_url('/properties')?>"><i class="bi bi-circle"></i><span>All Property</span></a></li>
+        <li><a href="<?= base_url('/properties/add-property')?>"><i class="bi bi-circle"></i><span>Add Property</span></a></li>
       </ul>
     </li>
     <!--Order-->
@@ -47,7 +36,7 @@
         <i class="bi bi-menu-button-wide"></i><span>Orders</span><i class="bi bi-chevron-down ms-auto"></i>
       </a>
       <ul id="order" class="nav-content collapse" data-bs-parent="#sidebar-nav">
-        <li><a href="/orders"><i class="bi bi-circle"></i><span>All Orders</span></a></li>
+        <li><a href="<?= base_url('/orders')?>"><i class="bi bi-circle"></i><span>All Orders</span></a></li>
         <!-- <li><a href="/property/add-property"><i class="bi bi-circle"></i><span>Add Property</span></a></li> -->
       </ul>
     </li>
@@ -57,35 +46,25 @@
         <i class="bi bi-menu-button-wide"></i><span>Categories</span><i class="bi bi-chevron-down ms-auto"></i>
       </a>
       <ul id="category" class="nav-content collapse" data-bs-parent="#sidebar-nav">
-        <li><a href="/categories"><i class="bi bi-circle"></i><span>All Categories</span></a></li>
-        <li><a href="/categories/add-category"><i class="bi bi-circle"></i><span>Add Category</span></a></li>
+        <li><a href="<?= base_url('/categories')?>"><i class="bi bi-circle"></i><span>All Categories</span></a></li>
+        <li><a href="<?= base_url('/categories/add-category')?>"><i class="bi bi-circle"></i><span>Add Category</span></a></li>
+      </ul>
+    </li>
+
+    <!--Type-->
+    <li class="nav-item">
+      <a class="nav-link collapsed" data-bs-target="#type" data-bs-toggle="collapse" href="#">
+        <i class="bi bi-menu-button-wide"></i><span>Types</span><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul id="type" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+        <li><a href="<?= base_url('/type')?>"><i class="bi bi-circle"></i><span>All Type</span></a></li>
+        <li><a href="<?= base_url('/type/add-type')?>"><i class="bi bi-circle"></i><span>Add Type</span></a></li>
       </ul>
     </li>
 
 
 
     <li class="nav-heading">Pages</li>
-    <!--Photos-->
-    <li class="nav-item">
-      <a class="nav-link collapsed" data-bs-target="#photo" data-bs-toggle="collapse" href="#">
-        <i class="bi bi-menu-button-wide"></i><span>Photos</span><i class="bi bi-chevron-down ms-auto"></i>
-      </a>
-      <ul id="photo" class="nav-content collapse" data-bs-parent="#sidebar-nav">
-        <li><a href="/photos"><i class="bi bi-circle"></i><span>All Photos</span></a></li>
-        <li><a href="/photos/add-photo"><i class="bi bi-circle"></i><span>Add Photo</span></a></li>
-      </ul>
-    </li>
-
-    <!-- Ckeckbox -->
-    <li class="nav-item">
-      <a class="nav-link collapsed" data-bs-target="#ckeckbox" data-bs-toggle="collapse" href="#">
-        <i class="bi bi-menu-button-wide"></i><span>Checkbox</span><i class="bi bi-chevron-down ms-auto"></i>
-      </a>
-      <ul id="checkbox" class="nav-content collapse" data-bs-parent="#sidebar-nav">
-        <li><a href="/checkbox"><i class="bi bi-circle"></i><span>All Checkbox</span></a></li>
-        <li><a href="/checkbox/add-checkbox"><i class="bi bi-circle"></i><span>Add Checkbox</span></a></li>
-      </ul>
-    </li>
 
     <li class="nav-item">
       <a class="nav-link collapsed" href="/profile">

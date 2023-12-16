@@ -12,7 +12,7 @@ class PropertyModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['title','description','price','category','type','status','photo','address','country','city','zip','size','bed','bath','floor','interior','outdoor','utility'];
+    protected $allowedFields    = ['title','description','price','category_id','type_id','status_id','photo','address','country','city','zip','size','bed','bath','floor','interior','outdoor','utility'];
 
     // Dates
     protected $useTimestamps = false;
