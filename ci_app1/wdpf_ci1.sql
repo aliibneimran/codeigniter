@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 10, 2023 at 07:29 PM
+-- Generation Time: Dec 17, 2023 at 06:18 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 7.4.33
 
@@ -24,23 +24,21 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `blog`
+-- Table structure for table `categories`
 --
 
-CREATE TABLE `blog` (
-  `blog_id` int(5) UNSIGNED NOT NULL,
-  `blog_title` varchar(100) NOT NULL,
-  `blog_description` text DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+CREATE TABLE `categories` (
+  `c_id` int(11) NOT NULL,
+  `category` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `blog`
+-- Dumping data for table `categories`
 --
 
-INSERT INTO `blog` (`blog_id`, `blog_title`, `blog_description`) VALUES
-(1, 'Web Development', 'Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). '),
-(2, 'Laravel development', 'Laravel is a free and open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller architectural pattern and based on Symfony.'),
-(3, 'Php development', 'PHP is a general-purpose scripting language geared towards web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995. The PHP reference implementation is now produced by the PHP Group.');
+INSERT INTO `categories` (`c_id`, `category`) VALUES
+(1, 'Flat'),
+(4, 'Duplex');
 
 -- --------------------------------------------------------
 
@@ -59,7 +57,9 @@ CREATE TABLE `category` (
 
 INSERT INTO `category` (`id`, `category`) VALUES
 (5, 'Car'),
-(6, 'Bus');
+(6, 'Bus'),
+(8, 'Truck'),
+(9, 'Mini Bus');
 
 -- --------------------------------------------------------
 
@@ -132,53 +132,95 @@ INSERT INTO `photos` (`id`, `name`, `photo`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `products`
---
-
-CREATE TABLE `products` (
-  `id` int(6) UNSIGNED NOT NULL,
-  `category_id` int(5) UNSIGNED NOT NULL,
-  `product` varchar(150) NOT NULL,
-  `price` int(5) NOT NULL,
-  `sku` varchar(50) NOT NULL,
-  `model` varchar(50) NOT NULL,
-  `photo` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
-
---
--- Dumping data for table `products`
---
-
-INSERT INTO `products` (`id`, `category_id`, `product`, `price`, `sku`, `model`, `photo`) VALUES
-(1, 6, 'BMW', 100000, '12', 'v6', '');
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `property`
 --
 
 CREATE TABLE `property` (
-  `id` int(11) NOT NULL,
+  `id` int(11) UNSIGNED NOT NULL,
   `title` varchar(100) NOT NULL,
   `description` text NOT NULL,
-  `catagory` varchar(50) NOT NULL,
-  `type` varchar(20) NOT NULL,
-  `status` varchar(20) NOT NULL,
+  `category_id` int(11) UNSIGNED NOT NULL,
+  `type_id` int(10) UNSIGNED NOT NULL,
+  `status_id` int(10) UNSIGNED NOT NULL,
   `size` varchar(50) NOT NULL,
   `bed` int(11) NOT NULL,
   `bath` int(11) NOT NULL,
   `floor` int(11) NOT NULL,
   `price` int(11) NOT NULL,
+  `photo` varchar(40) NOT NULL,
   `utility` text NOT NULL,
   `interior` text NOT NULL,
   `outdoor` text NOT NULL,
   `address` varchar(100) NOT NULL,
   `city` varchar(20) NOT NULL,
   `country` varchar(20) NOT NULL,
-  `zip` int(11) NOT NULL,
-  `photo` varchar(30) NOT NULL
+  `zip` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `property`
+--
+
+INSERT INTO `property` (`id`, `title`, `description`, `category_id`, `type_id`, `status_id`, `size`, `bed`, `bath`, `floor`, `price`, `photo`, `utility`, `interior`, `outdoor`, `address`, `city`, `country`, `zip`) VALUES
+(3, 'Apartment', 'This Apartment is very nice', 4, 1, 1, '3000sq', 4, 4, 2, 100000000, '1702603925_90f8e1d76a7a847fae07.jpg', 'Central Air, Electricity, Heating, Natural Gas, Water', 'Equipped Kitchen, Media Room', 'Basketball Court, Front Yard, Garage Attached, Hot Bath', 'Mirpur', 'Dhaka', 'Bangladesh', 1200);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `services`
+--
+
+CREATE TABLE `services` (
+  `id` int(11) NOT NULL,
+  `title` varchar(100) NOT NULL,
+  `description` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `services`
+--
+
+INSERT INTO `services` (`id`, `title`, `description`) VALUES
+(2, 'Web Development', 'web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). '),
+(3, 'Laravel development', 'Laravel is a free and open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller architectural pattern and based on Symfony.');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `statuses`
+--
+
+CREATE TABLE `statuses` (
+  `s_id` int(11) NOT NULL,
+  `status` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `statuses`
+--
+
+INSERT INTO `statuses` (`s_id`, `status`) VALUES
+(1, 'New'),
+(2, 'Offer');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `types`
+--
+
+CREATE TABLE `types` (
+  `t_id` int(11) NOT NULL,
+  `type` varchar(30) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `types`
+--
+
+INSERT INTO `types` (`t_id`, `type`) VALUES
+(1, 'Sales'),
+(2, 'Rentals');
 
 -- --------------------------------------------------------
 
@@ -207,10 +249,10 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`, `created_at`) VALUES
 --
 
 --
--- Indexes for table `blog`
+-- Indexes for table `categories`
 --
-ALTER TABLE `blog`
-  ADD PRIMARY KEY (`blog_id`);
+ALTER TABLE `categories`
+  ADD PRIMARY KEY (`c_id`);
 
 --
 -- Indexes for table `category`
@@ -237,17 +279,30 @@ ALTER TABLE `photos`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `products`
---
-ALTER TABLE `products`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `products_category_id_foreign` (`category_id`);
-
---
 -- Indexes for table `property`
 --
 ALTER TABLE `property`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `category_id` (`category_id`),
+  ADD KEY `type_id` (`type_id`);
+
+--
+-- Indexes for table `services`
+--
+ALTER TABLE `services`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `statuses`
+--
+ALTER TABLE `statuses`
+  ADD PRIMARY KEY (`s_id`);
+
+--
+-- Indexes for table `types`
+--
+ALTER TABLE `types`
+  ADD PRIMARY KEY (`t_id`);
 
 --
 -- Indexes for table `users`
@@ -260,16 +315,16 @@ ALTER TABLE `users`
 --
 
 --
--- AUTO_INCREMENT for table `blog`
+-- AUTO_INCREMENT for table `categories`
 --
-ALTER TABLE `blog`
-  MODIFY `blog_id` int(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+ALTER TABLE `categories`
+  MODIFY `c_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(5) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -290,32 +345,34 @@ ALTER TABLE `photos`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
--- AUTO_INCREMENT for table `products`
---
-ALTER TABLE `products`
-  MODIFY `id` int(6) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
-
---
 -- AUTO_INCREMENT for table `property`
 --
 ALTER TABLE `property`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `services`
+--
+ALTER TABLE `services`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `statuses`
+--
+ALTER TABLE `statuses`
+  MODIFY `s_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT for table `types`
+--
+ALTER TABLE `types`
+  MODIFY `t_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- Constraints for dumped tables
---
-
---
--- Constraints for table `products`
---
-ALTER TABLE `products`
-  ADD CONSTRAINT `products_category_id_foreign` FOREIGN KEY (`category_id`) REFERENCES `category` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

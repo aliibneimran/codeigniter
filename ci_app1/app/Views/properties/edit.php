@@ -22,20 +22,23 @@
                         <h5 class="card-title">Add Property Form</h5>
 
                         <!-- No Labels Form -->
-                        <form class="row g-3" action="<?= site_url('properties/update/' . $id) ?>" method="post" enctype="multipart/form-data">
+                        <form class="row g-3" action="<?= site_url('properties/update/' . $id) ?>" method="post"
+                            enctype="multipart/form-data">
 
                             <div class="col-md-12">
-                                <input type="text" class="form-control" name="title" value="<?= $title ?>" placeholder="Property Title">
+                                <input type="text" class="form-control" name="title" value="<?= $title ?>"
+                                    placeholder="Property Title">
                             </div>
                             <div class="col-md-12">
                                 <textarea name="description" id="" class="form-control"
-                                 placeholder="Property Description"><?= $description ?></textarea>
+                                    placeholder="Property Description"><?= $description ?></textarea>
                             </div>
                             <div class="col-md-4">
                                 <select id="inputState" name="cat" class="form-select">
                                     <option selected>Category</option>
                                     <?php foreach ($cats as $cat): ?>
-                                        <option value="<?= $cat['c_id'] ?>">
+                                        <?php $selected = ($cat['c_id'] == $property['category_id']) ? 'selected' : ''; ?>
+                                        <option value="<?= $cat['c_id'] ?>" <?= $selected ?>>
                                             <?= $cat['category'] ?>
                                         </option>
                                     <?php endforeach; ?>
@@ -62,34 +65,44 @@
                                 </select>
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="size" value="<?= $size ?>" placeholder="Size">
+                                <input type="text" class="form-control" name="size" value="<?= $size ?>"
+                                    placeholder="Size">
                             </div>
                             <div class="col-md-6">
-                                <input type="number" class="form-control" name="bed" value="<?= $bed ?>" placeholder="No. of Bed">
+                                <input type="number" class="form-control" name="bed" value="<?= $bed ?>"
+                                    placeholder="No. of Bed">
                             </div>
                             <div class="col-md-6">
-                                <input type="number" class="form-control" name="bath" value="<?= $bath ?>" placeholder="No. of Bath">
+                                <input type="number" class="form-control" name="bath" value="<?= $bath ?>"
+                                    placeholder="No. of Bath">
                             </div>
                             <div class="col-md-6">
-                                <input type="number" class="form-control" name="floor" value="<?= $floor ?>" placeholder="Floor number">
+                                <input type="number" class="form-control" name="floor" value="<?= $floor ?>"
+                                    placeholder="Floor number">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="address" value="<?= $address ?>" placeholder="Address">
+                                <input type="text" class="form-control" name="address" value="<?= $address ?>"
+                                    placeholder="Address">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="city" value="<?= $city ?>" placeholder="City">
+                                <input type="text" class="form-control" name="city" value="<?= $city ?>"
+                                    placeholder="City">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="country" value="<?= $country ?>" placeholder="Country">
+                                <input type="text" class="form-control" name="country" value="<?= $country ?>"
+                                    placeholder="Country">
                             </div>
                             <div class="col-md-6">
-                                <input type="number" class="form-control" name="zip" value="<?= $zip ?>" placeholder="Zip">
+                                <input type="number" class="form-control" name="zip" value="<?= $zip ?>"
+                                    placeholder="Zip">
                             </div>
                             <div class="col-md-6">
-                                <input type="number" class="form-control" name="price" value="<?= $price ?>" placeholder="Price">
+                                <input type="number" class="form-control" name="price" value="<?= $price ?>"
+                                    placeholder="Price">
                             </div>
                             <div class="col-md-6">
-                                <input type="file" class="form-control" name="photo" value="<?= $photo ?>" placeholder="Property Photo">
+                                <input type="file" class="form-control" name="photo" value="<?= $photo ?>"
+                                    placeholder="Property Photo">
                             </div>
                             <div class="col-md-12">
                                 <h5 class="card-title">Utilities :</h5>

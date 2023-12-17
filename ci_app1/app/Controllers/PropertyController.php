@@ -83,7 +83,11 @@ class PropertyController extends BaseController
     }
     public function edit($id)
     {
+        $data['cats'] = $this->category->findAll();
+        $data['types'] = $this->type->findAll();
+        $data['status'] = $this->status->findAll();
         $data = $this->property->find($id);
+
         return view('/properties/edit', $data);
     }
     public function update($id)
