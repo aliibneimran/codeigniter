@@ -28,8 +28,9 @@
                                 <input type="text" class="form-control" name="title" placeholder="Property Title">
                             </div>
                             <div class="col-md-12">
-                                <textarea name="description" id="" class="form-control"
+                                <textarea name="description" id="" class="tinymce-editor"
                                     placeholder="Property Description"></textarea>
+                                    <!-- tinymce-editor -->
                             </div>
                             <div class="col-md-4">
                                 <select id="inputState" name="cat" class="form-select">

@@ -10,10 +10,10 @@ use App\Models\TypeModel;
 
 class PropertyController extends BaseController
 {
-    private $property = '';
-    private $category = '';
-    private $type = '';
-    private $status = '';
+    protected $property = '';
+    protected $category = '';
+    protected $type = '';
+    protected $status = '';
 
     protected $helpers = ['form', 'url', 'file'];
     public function __construct()
