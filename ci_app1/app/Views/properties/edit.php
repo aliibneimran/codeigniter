@@ -1,6 +1,13 @@
 <?php echo $this->include("includes/top.php") ?>
 <?php echo $this->include("includes/header.php") ?>
-<?php echo $this->include("includes/sidebar.php") ?>
+<?php 
+    if(session()->get('user_role')=='admin'){
+      echo $this->include("includes/sidebar.php");
+    }
+    if(session()->get('user_role')=='editor'){
+      echo $this->include("includes/editor_sidebar.php");
+    }
+  ?>
 
 <main id="main" class="main">
 
@@ -30,7 +37,7 @@
                                     placeholder="Property Title">
                             </div>
                             <div class="col-md-12">
-                                <textarea name="description" id="" class="form-control"
+                                <textarea name="description" id="" class="tinymce-editor"
                                     placeholder="Property Description"><?= $description ?></textarea>
                             </div>
                             <div class="col-md-4">
@@ -48,10 +55,11 @@
                                 <select id="inputState" name="type" class="form-select">
                                     <option selected>Type</option>
                                     <?php foreach ($types as $type): ?>
-                                        <option value="<?= $type['t_id'] ?>">
-                                            <?= $type['type'] ?>
+                                        <option value="<?= esc($type['t_id']); ?>" <?php echo set_select('type', $type['t_id'], isset($selected_type) && $selected_type == $type['t_id']); ?>>
+                                            <?= esc($type['type']); ?>
                                         </option>
                                     <?php endforeach; ?>
+
                                 </select>
                             </div>
                             <div class="col-md-4">
@@ -106,8 +114,8 @@
                             </div>
                             <div class="col-md-12">
                                 <h5 class="card-title">Utilities :</h5>
-                                <input type="checkbox" name="utility[]" value="Central Air" class="mx-2">
-                                <label>Central Air</label>
+                                <input type="checkbox" name="utility[]" value="Central Air" value="<?//= esc($utility['value']); ?>" class="mx-2">
+                                <label>Central Air <?//= esc($utility['label']); ?></label>
                                 <input type="checkbox" name="utility[]" value="Electricity" class="mx-2">
                                 <label>Electricity</label>
                                 <input type="checkbox" name="utility[]" value="Heating" class="mx-2">

@@ -1,6 +1,13 @@
 <?php echo $this->include("includes/top.php") ?>
 <?php echo $this->include("includes/header.php") ?>
-<?php echo $this->include("includes/sidebar.php") ?>
+<?php 
+    if(session()->get('user_role')=='admin'){
+      echo $this->include("includes/sidebar.php");
+    }
+    if(session()->get('user_role')=='editor'){
+      echo $this->include("includes/editor_sidebar.php");
+    }
+  ?>
 
 <main id="main" class="main">
 
@@ -35,7 +42,7 @@
                                 <input type="text" class="form-control" name="title" placeholder="Service Title">
                             </div>
                             <div class="col-md-12">
-                                <textarea name="description" id="" class="form-control"
+                                <textarea name="description" id="" class="tinymce-editor"
                                     placeholder="Service Description"></textarea>
                             </div>
                             <div class="text-center">

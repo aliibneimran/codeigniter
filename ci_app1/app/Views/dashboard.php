@@ -1,7 +1,14 @@
 
   <?php echo $this->include("includes/top.php") ?>
   <?php echo $this->include("includes/header.php") ?>
-  <?php echo $this->include("includes/sidebar.php") ?>
+  <?php 
+    if(session()->get('user_role')=='admin'){
+      echo $this->include("includes/sidebar.php");
+    }
+    if(session()->get('user_role')=='editor'){
+      echo $this->include("includes/editor_sidebar.php");
+    }
+  ?>
 
   <main id="main" class="main">
 

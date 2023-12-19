@@ -32,13 +32,17 @@ class SigninController extends BaseController
                     'id' => $data['id'],
                     'name' => $data['name'],
                     'email' => $data['email'],
-                    'isLoggedIn' => TRUE
+                    'user_role' => $data['role'],
+                    'isLoggedIn' => TRUE,
                 ];
                 $session->set($user_data);
-                return redirect()->to('/');
-                // echo "<br> Password Varified";
-                // $item = $session->$user_data;
-                // print_r($item);
+                if($data['role'] == 'admin'){
+                    return redirect()->to('/');
+                }
+                if($data['role'] == 'editor'){
+                    return redirect()->to('/editor');
+                }
+                //return redirect()->to('/');
             
             }else{
                 $session->setFlashdata('msg', 'Password is incorrect.');
