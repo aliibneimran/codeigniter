@@ -33,10 +33,10 @@
     <!--Order-->
     <li class="nav-item">
       <a class="nav-link collapsed" data-bs-target="#order" data-bs-toggle="collapse" href="#">
-        <i class="bi bi-menu-button-wide"></i><span>Orders</span><i class="bi bi-chevron-down ms-auto"></i>
+        <i class="bi bi-menu-button-wide"></i><span>Booking</span><i class="bi bi-chevron-down ms-auto"></i>
       </a>
       <ul id="order" class="nav-content collapse" data-bs-parent="#sidebar-nav">
-        <li><a href="<?= base_url('/orders')?>"><i class="bi bi-circle"></i><span>All Orders</span></a></li>
+        <li><a href="<?= base_url('/orders')?>"><i class="bi bi-circle"></i><span>All Booking</span></a></li>
         <!-- <li><a href="/property/add-property"><i class="bi bi-circle"></i><span>Add Property</span></a></li> -->
       </ul>
     </li>

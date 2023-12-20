@@ -18,7 +18,6 @@ class ProductController extends BaseController
     }
     public function index()
     { 
-        // $this->product->select('products.id as product_id, products.*, category.category');
         $this->product->join('category','category.id= products.category_id');
         $data['items'] = $this->product->findAll();       
         $data['title'] = 'All Products';       

@@ -6,11 +6,11 @@
     <main id="main" class="main">
 
         <div class="pagetitle">
-            <h1>Orders Table</h1>
+            <h1>Booking Table</h1>
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item">Orders</li>
+                    <li class="breadcrumb-item">Booking</li>
                 </ol>
             </nav>
         </div><!-- End Page Title -->
@@ -31,7 +31,7 @@
                                         <th>Product Name</th>
                                         <th>Quantity</th>
                                         <th>Total Price</th>
-                                        <th>Order Date</th>
+                                        <th>Booking Date</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
