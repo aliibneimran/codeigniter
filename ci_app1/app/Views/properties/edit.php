@@ -116,11 +116,19 @@ if (session()->get('user_role') == 'editor') {
                             </div>
                             <div class="col-md-12">
                                 <h5 class="card-title">Utilities :</h5>
-                                <input type="checkbox" name="utility[]" value="Central Air"
-                                    value="<? //= esc($utility['value']); ?>" class="mx-2">
-                                <label>Central Air
-                                    <? //= esc($utility['label']); ?>
-                                </label>
+                                <?php
+                                $selectedUtilities = explode(',', $items['utility']);
+                                $utilitiesOptions = ['Central Air', 'Electricity', 'Heating', 'Natural Gas', 'Ventilation', 'Water'];
+
+                                foreach ($utilitiesOptions as $utility): ?>
+                                    <input type="checkbox" name="utility[]" value="<?= $utility ?>" class="mx-2"
+                                        <?= in_array($utility, $selectedUtilities) ? 'checked' : '' ?>>
+                                    <label>
+                                        <?= $utility ?>
+                                    </label>
+                                <?php endforeach; ?>
+                                <!-- <input type="checkbox" name="utility[]" value="Central Air" class="mx-2">
+                                <label>Central Air</label>
                                 <input type="checkbox" name="utility[]" value="Electricity" class="mx-2">
                                 <label>Electricity</label>
                                 <input type="checkbox" name="utility[]" value="Heating" class="mx-2">
@@ -130,7 +138,7 @@ if (session()->get('user_role') == 'editor') {
                                 <input type="checkbox" name="utility[]" value="Ventilation" class="mx-2">
                                 <label>Ventilation</label>
                                 <input type="checkbox" name="utility[]" value="Water" class="mx-2">
-                                <label>Water</label>
+                                <label>Water</label> -->
                             </div>
                             <div class="col-md-12">
                                 <h5 class="card-title">Interior Details :</h5>
