@@ -1,13 +1,13 @@
 <?php echo $this->include("includes/top.php") ?>
 <?php echo $this->include("includes/header.php") ?>
-<?php 
-    if(session()->get('user_role')=='admin'){
-      echo $this->include("includes/sidebar.php");
-    }
-    if(session()->get('user_role')=='editor'){
-      echo $this->include("includes/editor_sidebar.php");
-    }
-  ?>
+<?php
+if (session()->get('user_role') == 'admin') {
+    echo $this->include("includes/sidebar.php");
+}
+if (session()->get('user_role') == 'editor') {
+    echo $this->include("includes/editor_sidebar.php");
+}
+?>
 
 <main id="main" class="main">
 
@@ -29,22 +29,23 @@
                         <h5 class="card-title">Add Property Form</h5>
 
                         <!-- No Labels Form -->
-                        <form class="row g-3" action="<?= site_url('properties/update/' . $id) ?>" method="post"
-                            enctype="multipart/form-data">
+                        <form class="row g-3" action="<?= site_url('properties/update/' . $items['id']) ?>"
+                            method="post" enctype="multipart/form-data">
 
                             <div class="col-md-12">
-                                <input type="text" class="form-control" name="title" value="<?= $title ?>"
+                                <input type="text" class="form-control" name="title" value="<?= $items['title'] ?>"
                                     placeholder="Property Title">
                             </div>
                             <div class="col-md-12">
                                 <textarea name="description" id="" class="tinymce-editor"
-                                    placeholder="Property Description"><?= $description ?></textarea>
+                                    placeholder="Property Description"><?= $items['description'] ?></textarea>
                             </div>
                             <div class="col-md-4">
                                 <select id="inputState" name="cat" class="form-select">
                                     <option selected>Category</option>
+                                    <!-- <option value="" selected>123</option> -->
                                     <?php foreach ($cats as $cat): ?>
-                                        <?php $selected = ($cat['c_id'] == $property['category_id']) ? 'selected' : ''; ?>
+                                        <?= $selected = ($cat['c_id'] == $items['category_id']) ? 'selected' : ''; ?>
                                         <option value="<?= $cat['c_id'] ?>" <?= $selected ?>>
                                             <?= $cat['category'] ?>
                                         </option>
@@ -55,67 +56,71 @@
                                 <select id="inputState" name="type" class="form-select">
                                     <option selected>Type</option>
                                     <?php foreach ($types as $type): ?>
-                                        <option value="<?= esc($type['t_id']); ?>" <?php echo set_select('type', $type['t_id'], isset($selected_type) && $selected_type == $type['t_id']); ?>>
-                                            <?= esc($type['type']); ?>
+                                        <?= $selected = ($type['t_id'] == $items['type_id']) ? 'selected' : ''; ?>
+                                        <option value="<?= $type['t_id'] ?>" <?= $selected ?>>
+                                            <?= $type['type'] ?>
                                         </option>
                                     <?php endforeach; ?>
-
                                 </select>
                             </div>
                             <div class="col-md-4">
                                 <select id="inputState" name="status" class="form-select">
                                     <option selected>Status</option>
                                     <?php foreach ($status as $sts): ?>
-                                        <option value="<?= $sts['s_id'] ?>">
+                                        <?= $selected = ($sts['s_id'] == $items['status_id']) ? 'selected' : ''; ?>
+                                        <option value="<?= $sts['s_id'] ?>" <?= $selected ?>>
                                             <?= $sts['status'] ?>
                                         </option>
                                     <?php endforeach; ?>
                                 </select>
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="size" value="<?= $size ?>"
+                                <input type="text" class="form-control" name="size" value="<?= $items['size'] ?>"
                                     placeholder="Size">
                             </div>
                             <div class="col-md-6">
-                                <input type="number" class="form-control" name="bed" value="<?= $bed ?>"
+                                <input type="number" class="form-control" name="bed" value="<?= $items['bed'] ?>"
                                     placeholder="No. of Bed">
                             </div>
                             <div class="col-md-6">
-                                <input type="number" class="form-control" name="bath" value="<?= $bath ?>"
+                                <input type="number" class="form-control" name="bath" value="<?= $items['bath'] ?>"
                                     placeholder="No. of Bath">
                             </div>
                             <div class="col-md-6">
-                                <input type="number" class="form-control" name="floor" value="<?= $floor ?>"
+                                <input type="number" class="form-control" name="floor" value="<?= $items['floor'] ?>"
                                     placeholder="Floor number">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="address" value="<?= $address ?>"
+                                <input type="text" class="form-control" name="address" value="<?= $items['address'] ?>"
                                     placeholder="Address">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="city" value="<?= $city ?>"
+                                <input type="text" class="form-control" name="city" value="<?= $items['city'] ?>"
                                     placeholder="City">
                             </div>
                             <div class="col-md-6">
-                                <input type="text" class="form-control" name="country" value="<?= $country ?>"
+                                <input type="text" class="form-control" name="country" value="<?= $items['country'] ?>"
                                     placeholder="Country">
                             </div>
                             <div class="col-md-6">
-                                <input type="number" class="form-control" name="zip" value="<?= $zip ?>"
+                                <input type="number" class="form-control" name="zip" value="<?= $items['zip'] ?>"
                                     placeholder="Zip">
                             </div>
                             <div class="col-md-6">
-                                <input type="number" class="form-control" name="price" value="<?= $price ?>"
+                                <input type="number" class="form-control" name="price" value="<?= $items['price'] ?>"
                                     placeholder="Price">
                             </div>
                             <div class="col-md-6">
-                                <input type="file" class="form-control" name="photo" value="<?= $photo ?>"
+                                <input type="file" class="form-control" name="photo" value="<?= $items['photo'] ?>"
                                     placeholder="Property Photo">
                             </div>
                             <div class="col-md-12">
                                 <h5 class="card-title">Utilities :</h5>
-                                <input type="checkbox" name="utility[]" value="Central Air" value="<?//= esc($utility['value']); ?>" class="mx-2">
-                                <label>Central Air <?//= esc($utility['label']); ?></label>
+                                <input type="checkbox" name="utility[]" value="Central Air"
+                                    value="<? //= esc($utility['value']); ?>" class="mx-2">
+                                <label>Central Air
+                                    <? //= esc($utility['label']); ?>
+                                </label>
                                 <input type="checkbox" name="utility[]" value="Electricity" class="mx-2">
                                 <label>Electricity</label>
                                 <input type="checkbox" name="utility[]" value="Heating" class="mx-2">
