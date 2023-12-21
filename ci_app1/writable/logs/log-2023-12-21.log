@@ -1,0 +1,558 @@
+INFO - 2023-12-21 02:45:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:45:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:51:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:51:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:54:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:54:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:54:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 02:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:16:04 --> Array to string conversion
+in APPPATH\Views\properties\edit.php on line 127.
+ 1 APPPATH\Views\properties\edit.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 127, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 03:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:17:03 --> Undefined variable: utility
+in APPPATH\Views\properties\edit.php on line 123.
+ 1 APPPATH\Views\properties\edit.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 123, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 03:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:17:17 --> Undefined variable: utility
+in APPPATH\Views\properties\edit.php on line 123.
+ 1 APPPATH\Views\properties\edit.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 123, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 03:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:17:23 --> Undefined variable: utility
+in APPPATH\Views\properties\edit.php on line 123.
+ 1 APPPATH\Views\properties\edit.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 123, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 03:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:17:44 --> Undefined variable: utility
+in APPPATH\Views\properties\edit.php on line 123.
+ 1 APPPATH\Views\properties\edit.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 123, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 03:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:17:53 --> Undefined variable: utility
+in APPPATH\Views\properties\edit.php on line 123.
+ 1 APPPATH\Views\properties\edit.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 123, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 03:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:18:03 --> Undefined variable: utility
+in APPPATH\Views\properties\edit.php on line 123.
+ 1 APPPATH\Views\properties\edit.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 123, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 03:18:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:18:05 --> Undefined variable: utility
+in APPPATH\Views\properties\edit.php on line 123.
+ 1 APPPATH\Views\properties\edit.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 123, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 03:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:18:06 --> Undefined variable: utility
+in APPPATH\Views\properties\edit.php on line 123.
+ 1 APPPATH\Views\properties\edit.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 123, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 03:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:21:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:23:18 --> Array to string conversion
+in APPPATH\Views\properties\edit.php on line 127.
+ 1 APPPATH\Views\properties\edit.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 127, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 03:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:32:19 --> Undefined variable: utility
+in APPPATH\Views\properties\edit.php on line 119.
+ 1 APPPATH\Views\properties\edit.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 119, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 03:33:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:42:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:46:10 --> Array to string conversion
+in APPPATH\Views\properties\edit.php on line 30.
+ 1 APPPATH\Views\properties\edit.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 30, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 03:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 03:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 03:57:14 --> Undefined index: utility
+in APPPATH\Views\properties\edit.php on line 120.
+ 1 APPPATH\Views\properties\edit.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:00:42 --> Undefined index: utility
+in APPPATH\Views\properties\edit.php on line 120.
+ 1 APPPATH\Views\properties\edit.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:00:44 --> Undefined index: utility
+in APPPATH\Views\properties\edit.php on line 120.
+ 1 APPPATH\Views\properties\edit.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:00:44 --> Undefined index: utility
+in APPPATH\Views\properties\edit.php on line 120.
+ 1 APPPATH\Views\properties\edit.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:00:45 --> Undefined index: utility
+in APPPATH\Views\properties\edit.php on line 120.
+ 1 APPPATH\Views\properties\edit.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:00:45 --> Undefined index: utility
+in APPPATH\Views\properties\edit.php on line 120.
+ 1 APPPATH\Views\properties\edit.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:01:11 --> explode() expects parameter 2 to be string, array given
+in APPPATH\Views\properties\edit.php on line 119.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expects parameter 2 to be string, array given', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 119, [...])
+ 2 APPPATH\Views\properties\edit.php(119): explode(',', [...])
+ 3 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 6 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:01:45 --> Undefined index: utility
+in APPPATH\Views\properties\edit.php on line 120.
+ 1 APPPATH\Views\properties\edit.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(93): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:07:22 --> Undefined index: utility
+in APPPATH\Views\properties\edit.php on line 120.
+ 1 APPPATH\Views\properties\edit.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(92): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:08:49 --> Undefined index: utility
+in APPPATH\Views\properties\edit.php on line 120.
+ 1 APPPATH\Views\properties\edit.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(92): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:09:16 --> Undefined index: utility
+in APPPATH\Views\properties\edit.php on line 120.
+ 1 APPPATH\Views\properties\edit.php(120): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 120, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(92): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:12:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:13:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:16:14 --> Undefined offset: 3
+in APPPATH\Views\properties\edit.php on line 129.
+ 1 APPPATH\Views\properties\edit.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 3', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 129, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(92): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:17:15 --> Undefined offset: 4
+in APPPATH\Views\properties\edit.php on line 131.
+ 1 APPPATH\Views\properties\edit.php(131): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 4', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 131, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(92): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:18:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:37:28 --> syntax error, unexpected ')'
+in APPPATH\Views\properties\edit.php on line 124.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 3 APPPATH\Controllers\PropertyController.php(92): view('/properties/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:41:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:41:13 --> Undefined variable: utility
+in APPPATH\Views\properties\edit.php on line 125.
+ 1 APPPATH\Views\properties\edit.php(125): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: utility', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 125, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(92): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 04:41:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:52:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:53:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:54:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 04:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 04:59:15 --> Undefined variable: uti
+in APPPATH\Views\properties\edit.php on line 127.
+ 1 APPPATH\Views\properties\edit.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: uti', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 127, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(92): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 05:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:07:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 05:09:51 --> Undefined index:  	interior
+in APPPATH\Views\properties\edit.php on line 132.
+ 1 APPPATH\Views\properties\edit.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index:  	interior', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 132, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(92): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 05:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:17:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:22:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 05:24:13 --> Undefined index: interior 
+in APPPATH\Views\properties\edit.php on line 134.
+ 1 APPPATH\Views\properties\edit.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: interior ', 'D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php', 134, [...])
+ 2 SYSTEMPATH\View\View.php(228): include('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\app\\Views\\properties\\edit.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('/properties/edit', [], true)
+ 5 APPPATH\Controllers\PropertyController.php(92): view('/properties/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->edit('4')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 05:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:48:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:49:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 05:49:37 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\PropertyController.php(98): CodeIgniter\HTTP\Files\UploadedFile->move('assets/uploads/', '1703137777_c2fe156d713617dfca96')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->update('4')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 05:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 05:50:34 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\PropertyController.php(98): CodeIgniter\HTTP\Files\UploadedFile->move('assets/uploads/', '1703137834_3001033495f52b948b1e')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->update('4')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 05:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 05:50:50 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\PropertyController.php(98): CodeIgniter\HTTP\Files\UploadedFile->move('assets/uploads/', '1703137850_55144058ae6b784a4719')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->update('4')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 05:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 05:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 05:58:13 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\PropertyController.php(98): CodeIgniter\HTTP\Files\UploadedFile->move('assets/uploads/', '1703138293_29b86ecf5f59a574dcdc')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->update('4')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 05:58:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-21 06:02:31 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 146.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(146): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\PropertyController.php(98): CodeIgniter\HTTP\Files\UploadedFile->move('assets/uploads/', '1703138551_5a4be7d5de50691d5a75')
+ 3 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->update('4')
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-21 06:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-21 06:03:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

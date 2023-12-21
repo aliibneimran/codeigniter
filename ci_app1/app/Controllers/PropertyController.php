@@ -68,9 +68,9 @@ class PropertyController extends BaseController
                 'bed' => $this->request->getVar("bed"),
                 'bath' => $this->request->getVar("bath"),
                 'floor' => $this->request->getVar("floor"),
-                'utility' => implode(', ', $this->request->getVar("utility")),
-                'interior' => implode(', ', $this->request->getVar("interior")),
-                'outdoor' => implode(', ', $this->request->getVar("outdoor")),
+                'utility' => implode(',', $this->request->getVar("utility")),
+                'interior' => implode(',', $this->request->getVar("interior")),
+                'outdoor' => implode(',', $this->request->getVar("outdoor")),
                 'photo' => $img_name,
             ];
             // print_r($data);
@@ -84,7 +84,6 @@ class PropertyController extends BaseController
     public function edit($id)
     {
 
-        $data['items'] = $this->property->findAll();
         $data['cats'] = $this->category->findAll();
         $data['types'] = $this->type->findAll();
         $data['status'] = $this->status->findAll();
@@ -112,9 +111,9 @@ class PropertyController extends BaseController
             'bed' => $this->request->getVar("bed"),
             'bath' => $this->request->getVar("bath"),
             'floor' => $this->request->getVar("floor"),
-            'utility' => implode(', ', $this->request->getVar("utility")),
-            'interior' => implode(', ', $this->request->getVar("interior")),
-            'outdoor' => implode(', ', $this->request->getVar("outdoor")),
+            'utility' => implode(',', $this->request->getVar("utility")),
+            'interior' => implode(',', $this->request->getVar("interior")),
+            'outdoor' => implode(',', $this->request->getVar("outdoor")),
             'photo' => $img_name,
         ];
         $this->property->update($id, $data);
