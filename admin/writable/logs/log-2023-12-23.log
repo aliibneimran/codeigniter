@@ -1,0 +1,119 @@
+INFO - 2023-12-23 02:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 02:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-12-23 02:36:33 --> Class 'App\Models\ProductModel' not found
+in APPPATH\Controllers\frontend\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-23 02:36:33 --> Class 'App\Models\ProductModel' not found
+in APPPATH\Controllers\frontend\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-23 02:51:12 --> Class 'App\Models\ProductModel' not found
+in APPPATH\Controllers\frontend\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-23 02:51:12 --> Class 'App\Models\ProductModel' not found
+in APPPATH\Controllers\frontend\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-23 02:53:37 --> Class 'App\Models\ProductModel' not found
+in APPPATH\Controllers\frontend\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-23 02:53:37 --> Class 'App\Models\ProductModel' not found
+in APPPATH\Controllers\frontend\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-23 02:55:27 --> Class 'App\Models\ProductModel' not found
+in APPPATH\Controllers\frontend\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-23 02:55:27 --> Class 'App\Models\ProductModel' not found
+in APPPATH\Controllers\frontend\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-23 03:02:27 --> Class 'App\Models\ProductModel' not found
+in APPPATH\Controllers\frontend\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-23 03:02:27 --> Class 'App\Models\ProductModel' not found
+in APPPATH\Controllers\frontend\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-23 03:03:16 --> Class 'App\Models\ProductModel' not found
+in APPPATH\Controllers\frontend\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-23 03:03:16 --> Class 'App\Models\ProductModel' not found
+in APPPATH\Controllers\frontend\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-23 03:29:07 --> Class 'App\Models\ProductModel' not found
+in APPPATH\Controllers\frontend\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-23 03:29:08 --> Class 'App\Models\ProductModel' not found
+in APPPATH\Controllers\frontend\ProductController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Frontend\ProductController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\codeigniter\\ci_app1\\public\\index.php')
+INFO - 2023-12-23 06:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 06:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 06:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 06:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 06:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 07:07:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 07:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 07:08:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 07:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 07:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 07:08:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 07:08:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 07:08:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 07:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 07:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 07:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 07:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 07:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-23 07:47:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,159 @@
+ERROR - 2023-12-06 01:12:24 --> mysqli_sql_exception: Operand should contain 1 column(s) in E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\app\Controllers\PropertyController.php(48): CodeIgniter\Model->insert(Array)
+#8 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(942): App\Controllers\PropertyController->store()
+#9 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+#10 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Server\rewrite.php(47): require_once('E:\\PHP\\htdocs\\w...')
+#13 {main}
+CRITICAL - 2023-12-06 01:12:24 --> Operand should contain 1 column(s)
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `properties` (`title`, `description`, `price`, `category`, `type`, `status`, `address`, `country`, `city`, `zip`, `f_size`, `bed_rooms`, `bath_rooms`, `floor`, `utility`) VALUES (:title:, :description:, :price:, :category:, :type:, :status:, :address:, :country:, :city:, :zip:, :f_size:, :bed_rooms:, :bath_rooms:, :floor:, :utility:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\PropertyController.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\PropertyController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PropertyController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-06 03:12:32 --> syntax error, unexpected '<<' (T_SL), expecting end of file
+in APPPATH\Config\Routes.php on line 9.
+ 1 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+INFO - 2023-12-06 05:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-12-06 05:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-12-06 14:13:22 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'wdpf_ci1', 3306, '', 0)
+#1 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\app\Controllers\ProductController.php(18): CodeIgniter\BaseModel->findAll()
+#7 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(942): App\Controllers\ProductController->index()
+#8 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#9 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Server\rewrite.php(47): require_once('E:\\PHP\\htdocs\\w...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\app\Controllers\ProductController.php(18): CodeIgniter\BaseModel->findAll()
+#6 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(942): App\Controllers\ProductController->index()
+#7 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+#8 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Server\rewrite.php(47): require_once('E:\\PHP\\htdocs\\w...')
+#11 {main}
+CRITICAL - 2023-12-06 14:13:22 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\ProductController.php(18): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-06 17:05:22 --> include_once(header.php): failed to open stream: No such file or directory
+in APPPATH\Views\profile.php on line 43.
+ 1 APPPATH\Views\profile.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(header.php): failed to open stream: No such file or directory', 'E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\app\\Views\\profile.php', 43, [])
+ 2 APPPATH\Views\profile.php(43): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\app\\Views\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 6 APPPATH\Controllers\Profile.php(11): view('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Profile->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-06 17:06:43 --> include_once(header.php): failed to open stream: No such file or directory
+in APPPATH\Views\profile.php on line 43.
+ 1 APPPATH\Views\profile.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(header.php): failed to open stream: No such file or directory', 'E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\app\\Views\\profile.php', 43, [])
+ 2 APPPATH\Views\profile.php(43): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\app\\Views\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 6 APPPATH\Controllers\Profile.php(11): view('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Profile->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-06 17:06:44 --> include_once(header.php): failed to open stream: No such file or directory
+in APPPATH\Views\profile.php on line 43.
+ 1 APPPATH\Views\profile.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(header.php): failed to open stream: No such file or directory', 'E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\app\\Views\\profile.php', 43, [])
+ 2 APPPATH\Views\profile.php(43): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\app\\Views\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 6 APPPATH\Controllers\Profile.php(11): view('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Profile->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-06 17:06:45 --> include_once(header.php): failed to open stream: No such file or directory
+in APPPATH\Views\profile.php on line 43.
+ 1 APPPATH\Views\profile.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(header.php): failed to open stream: No such file or directory', 'E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\app\\Views\\profile.php', 43, [])
+ 2 APPPATH\Views\profile.php(43): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\app\\Views\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 6 APPPATH\Controllers\Profile.php(11): view('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Profile->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-06 17:12:08 --> include_once(header.php): failed to open stream: No such file or directory
+in APPPATH\Views\profile.php on line 43.
+ 1 APPPATH\Views\profile.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(header.php): failed to open stream: No such file or directory', 'E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\app\\Views\\profile.php', 43, [])
+ 2 APPPATH\Views\profile.php(43): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\app\\Views\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 6 APPPATH\Controllers\Profile.php(11): view('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Profile->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-06 17:13:51 --> include_once(header.php): failed to open stream: No such file or directory
+in APPPATH\Views\profile.php on line 43.
+ 1 APPPATH\Views\profile.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(header.php): failed to open stream: No such file or directory', 'E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\app\\Views\\profile.php', 43, [])
+ 2 APPPATH\Views\profile.php(43): include_once()
+ 3 SYSTEMPATH\View\View.php(228): include('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\app\\Views\\profile.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('profile', [], true)
+ 6 APPPATH\Controllers\Profile.php(11): view('profile')
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Profile->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profile))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')

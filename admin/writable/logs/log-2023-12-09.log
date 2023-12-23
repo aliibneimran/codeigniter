@@ -1,0 +1,489 @@
+ERROR - 2023-12-09 04:47:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	CONSTRAINT `pk_category` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET...' at line 3 in D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `c...', 0)
+#1 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\app\Database\Migrations\2023-12-09-043522_CreateCatagoryTable.php(24): CodeIgniter\Database\Forge->createTable('category')
+#5 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(873): App\Database\Migrations\CreateCatagoryTable->up()
+#6 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-12-09 04:58:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	CONSTRAINT `pk_category` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET...' at line 3 in D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `c...', 0)
+#1 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\app\Database\Migrations\2023-12-09-043522_CreateCatagoryTable.php(24): CodeIgniter\Database\Forge->createTable('category')
+#5 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(873): App\Database\Migrations\CreateCatagoryTable->up()
+#6 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-12-09 04:59:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	CONSTRAINT `pk_category` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET...' at line 3 in D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `c...', 0)
+#1 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\app\Database\Migrations\2023-12-09-043522_CreateCatagoryTable.php(24): CodeIgniter\Database\Forge->createTable('category')
+#5 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(873): App\Database\Migrations\CreateCatagoryTable->up()
+#6 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-12-09 05:01:29 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	CONSTRAINT `pk_category` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET...' at line 3 in D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `c...', 0)
+#1 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\app\Database\Migrations\2023-12-09-043522_CreateCatagoryTable.php(24): CodeIgniter\Database\Forge->createTable('category')
+#5 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(873): App\Database\Migrations\CreateCatagoryTable->up()
+#6 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-12-09 05:01:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	CONSTRAINT `pk_category` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET...' at line 3 in D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `c...', 0)
+#1 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `c...')
+#2 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `c...')
+#3 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `c...')
+#4 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\app\Database\Migrations\2023-12-09-043522_CreateCatagoryTable.php(24): CodeIgniter\Database\Forge->createTable('category')
+#5 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(873): App\Database\Migrations\CreateCatagoryTable->up()
+#6 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-12-09 05:02:27 --> mysqli_sql_exception: Table 'blog' already exists in D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `b...', 0)
+#1 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\app\Database\Migrations\2023-12-02-172150_AddBlog.php(28): CodeIgniter\Database\Forge->createTable('blog')
+#5 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(873): App\Database\Migrations\AddBlog->up()
+#6 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-12-09 05:03:39 --> mysqli_sql_exception: Table 'blog' already exists in D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `b...', 0)
+#1 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\app\Database\Migrations\2023-12-02-172150_AddBlog.php(28): CodeIgniter\Database\Forge->createTable('blog')
+#5 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(873): App\Database\Migrations\AddBlog->up()
+#6 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-12-09 05:03:46 --> mysqli_sql_exception: Table 'blog' already exists in D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `b...', 0)
+#1 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `b...')
+#2 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `b...')
+#3 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `b...')
+#4 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\app\Database\Migrations\2023-12-02-172150_AddBlog.php(28): CodeIgniter\Database\Forge->createTable('blog')
+#5 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(873): App\Database\Migrations\AddBlog->up()
+#6 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-12-09 05:04:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`model` VARCHAR NOT NULL,
+	`sku` VARCHAR NOT NULL,
+	`prize` INT NO...' at line 4 in D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\app\Database\Migrations\2023-12-09-050001_Products.php(46): CodeIgniter\Database\Forge->createTable('products')
+#5 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(873): App\Database\Migrations\Products1Migration->up()
+#6 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-12-09 05:07:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`model` VARCHAR NOT NULL,
+	`sku` VARCHAR NOT NULL,
+	`prize` INT NO...' at line 4 in D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\app\Database\Migrations\2023-12-09-050001_Products.php(46): CodeIgniter\Database\Forge->createTable('products')
+#5 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(873): App\Database\Migrations\Products1Migration->up()
+#6 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-12-09 05:13:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NOT NULL,
+	`model` VARCHAR NOT NULL,
+	`sku` VARCHAR NOT NULL,
+	`prize` INT NO...' at line 4 in D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\app\Database\Migrations\2023-12-09-050001_Products.php(46): CodeIgniter\Database\Forge->createTable('products')
+#5 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(873): App\Database\Migrations\Products1Migration->up()
+#6 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2023-12-09 05:58:43 --> mysqli_sql_exception: Table 'wdpf_ci1.blog' doesn't exist in D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\app\Controllers\ServiceController.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(942): App\Controllers\ServiceController->index()
+#8 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+#9 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 D:\WDPF_55_WDPF\xampp\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF...')
+#12 {main}
+CRITICAL - 2023-12-09 05:58:43 --> Table 'wdpf_ci1.blog' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `blog`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ServiceController.php(17): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ServiceController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:15:47 --> Invalid file: "categories/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/index', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(13): view('categories/index')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:19:25 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:19:26 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:19:26 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:19:29 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:20:16 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:20:17 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:20:17 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:20:18 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:20:28 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:20:30 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:20:38 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:20:52 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:20:53 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:20:53 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:20:54 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:20:54 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:20:54 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:20:55 --> Invalid file: "categories/indexArray.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/indexArray.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/indexArray', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/indexArray')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:21:32 --> Invalid file: "categories/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/index', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:21:33 --> Invalid file: "categories/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/index', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:21:33 --> Invalid file: "categories/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/index', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:21:34 --> Invalid file: "categories/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/index', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+CRITICAL - 2023-12-09 06:21:34 --> Invalid file: "categories/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('categories/index.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('categories/index', [], true)
+ 3 APPPATH\Controllers\CategoryController.php(20): view('categories/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\CategoryController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CategoryController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\WDPF_55_WDPF\\xampp\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
+ERROR - 2023-12-09 17:12:52 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'wdpf_ci1', 3306, '', 0)
+#1 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\app\Controllers\SigninController.php(23): CodeIgniter\BaseModel->first()
+#7 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(942): App\Controllers\SigninController->login()
+#8 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#9 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Server\rewrite.php(47): require_once('E:\\PHP\\htdocs\\w...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#5 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\app\Controllers\SigninController.php(23): CodeIgniter\BaseModel->first()
+#6 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(942): App\Controllers\SigninController->login()
+#7 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+#8 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 E:\PHP\htdocs\wdpf_codeigniter\ci_app1\system\Commands\Server\rewrite.php(47): require_once('E:\\PHP\\htdocs\\w...')
+#11 {main}
+CRITICAL - 2023-12-09 17:12:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\SigninController.php(23): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\SigninController->login()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\PHP\\htdocs\\wdpf_codeigniter\\ci_app1\\public\\index.php')
